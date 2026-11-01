@@ -36,6 +36,7 @@ const R = () => (<HL to="rate" title="rate" text="R" />);
 const O = () => (<HL to="overlap" title="overlap" text="O" />);
 const T = () => (<HL to="trackless" title="trackless" text="T" />);
 const L = () => (<HL to="looping" title="looping" text="L" />);
+const F = () => (<HL to="finitearea" title="finite area" text="F" />);
 const SteadyState = () => (<HL to="steadystate" title="steady state" text="Steady State" />);
 
 
@@ -123,6 +124,18 @@ export default function HelpView() {
             />
             <HelpCard id="trackless" title="Trackless (T)"
                 description={<>Solutions containing no tracks are classified as trackless.</>}
+            />
+            <HelpCard id="finitearea" title="Finite Area (F)"
+                description={
+                    <>
+                        If a solution continues to output indefinitely and its area has a finite upper bound, it is marked with <F/>. More precisely, F is shorthand for <A/>'@inf=0
+                        <p>
+                            Some solutions output indefinitely but use an ever-growing amount of area.
+                            Some other solutions will use finite space up until they reach the victory screen (@V), but then stop outputting altogether.
+                            These types of solutions are not marked as F.
+                        </p>
+                    </>
+                }
             />
             <HelpCard
                 id="rate"
