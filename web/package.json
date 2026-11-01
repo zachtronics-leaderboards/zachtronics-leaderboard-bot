@@ -14,7 +14,7 @@
         "@sinclair/typebox": "0.34.52",
         "d3-format": "3.1.2",
         "deep-object-diff": "1.1.9",
-        "plotly.js-gl3d-dist-min": "4.1.2",
+        "plotly.js-gl3d-dist-min": "4.2.0",
         "react": "19.3.1",
         "react-cool-dimensions": "3.0.1",
         "react-dom": "19.3.1",
