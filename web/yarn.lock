@@ -266,6 +266,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@isaacs/nonrecursive-glob-match@npm:^1.0.3":
+  version: 1.1.0
+  resolution: "@isaacs/nonrecursive-glob-match@npm:1.1.0"
+  checksum: 10c0/89f8535f3d8147649360de992f58fba2b0e97b687e18cdc16c5b34a6c52afff4f474d05c5a0b6411708614f368cf19c41b037d3a1c6c6821e02aee967d888e98
+  languageName: node
+  linkType: hard
+
 "@jest/diff-sequences@npm:30.0.1":
   version: 30.0.1
   resolution: "@jest/diff-sequences@npm:30.0.1"
@@ -1193,12 +1200,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brace-expansion@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "brace-expansion@npm:5.0.2"
+"brace-expansion@npm:^5.0.12":
+  version: 5.0.12
+  resolution: "brace-expansion@npm:5.0.12"
   dependencies:
     balanced-match: "npm:^4.0.2"
-  checksum: 10c0/60c765e5df6fc0ceca3d5703202ae6779db61f28ea3bf93a04dbf0d50c22ef8e4644e09d0459c827077cd2d09ba8f199a04d92c36419fcf874601a5565013174
+  checksum: 10c0/a40ac64d3bdb5bb222456514d3633c1f627f03b844f509c69e70f98b78be0ce85e21b44bbfecdd0ddd4cc0855ca4242b41ea96ddccf88c7c3c7a84405474bb3a
   languageName: node
   linkType: hard
 
@@ -1515,14 +1522,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^13.0.3":
-  version: 13.0.3
-  resolution: "glob@npm:13.0.3"
+"glob@npm:^14.0.3":
+  version: 14.0.3
+  resolution: "glob@npm:14.0.3"
   dependencies:
-    minimatch: "npm:^10.2.0"
-    minipass: "npm:^7.1.2"
-    path-scurry: "npm:^2.0.0"
-  checksum: 10c0/333dc5c40ca0e50400465d8f5c45aa7cdd32580c4d1a4c502dfb4fb9c469a936b8e0c6bbd09cd6353fd05982e48d7f79e819159a36fb3e0a41ee722607bc11a9
+    minimatch: "npm:^11.0.2"
+    minipass: "npm:^7.1.3"
+    path-scurry: "npm:^3.0.0"
+  checksum: 10c0/762d4b6e2dc3648e7dbc7f7aa4264fe62cce85014d004c0d0690f9e64471d898ba828c69d2dcd449ac949908fdf02934a9d2c51e444a84171a8f4158a42ef496
   languageName: node
   linkType: hard
 
@@ -1815,12 +1822,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.2.0":
-  version: 10.2.0
-  resolution: "minimatch@npm:10.2.0"
+"minimatch@npm:^11.0.2":
+  version: 11.0.4
+  resolution: "minimatch@npm:11.0.4"
   dependencies:
-    brace-expansion: "npm:^5.0.2"
-  checksum: 10c0/256e72812bb99a86cdc788bf46a4da3f6e139db9123e20ed85a6795b93fdc0b76468ac511eb5535a023adb02a53fd598f971e990d0ca3bd6de6d41ea0199def1
+    "@isaacs/nonrecursive-glob-match": "npm:^1.0.3"
+    brace-expansion: "npm:^5.0.12"
+  checksum: 10c0/e342a036ce841615715727957c644df8fb167137035e7ec380c5dbd637a47dd10ba33b2e25ff3a8dd01c6483624cdd1942de5bafb5f4a342b450343bb63e29dc
   languageName: node
   linkType: hard
 
@@ -1853,6 +1861,13 @@ __metadata:
   version: 7.1.2
   resolution: "minipass@npm:7.1.2"
   checksum: 10c0/b0fd20bb9fb56e5fa9a8bfac539e8915ae07430a619e4b86ff71f5fc757ef3924b23b2c4230393af1eda647ed3d75739e4e0acb250a6b1eb277cf7f8fe449557
+  languageName: node
+  linkType: hard
+
+"minipass@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "minipass@npm:7.1.3"
+  checksum: 10c0/539da88daca16533211ea5a9ee98dc62ff5742f531f54640dd34429e621955e91cc280a91a776026264b7f9f6735947629f920944e9c1558369e8bf22eb33fbb
   languageName: node
   linkType: hard
 
@@ -1935,13 +1950,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-scurry@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "path-scurry@npm:2.0.0"
+"path-scurry@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "path-scurry@npm:3.0.0"
   dependencies:
     lru-cache: "npm:^11.0.0"
     minipass: "npm:^7.1.2"
-  checksum: 10c0/3da4adedaa8e7ef8d6dc4f35a0ff8f05a9b4d8365f2b28047752b62d4c1ad73eec21e37b1579ef2d075920157856a3b52ae8309c480a6f1a8bbe06ff8e52b33c
+  checksum: 10c0/3256223b51952732bc5460f574143d7d9904cd6d68fac3072906162c90e9f27fdf6f3fe812287e65a876f92d73c12a58368b28749ed07a58bdb04dc76f60a938
   languageName: node
   linkType: hard
 
@@ -2195,15 +2210,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:6.1.3":
-  version: 6.1.3
-  resolution: "rimraf@npm:6.1.3"
+"rimraf@npm:6.1.4":
+  version: 6.1.4
+  resolution: "rimraf@npm:6.1.4"
   dependencies:
-    glob: "npm:^13.0.3"
+    glob: "npm:^14.0.3"
     package-json-from-dist: "npm:^1.0.1"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/4a56537850102e20ba5d5eb49f366b4b7b2435389734b4b8480cf0e0eb0f6f5d0c44120a171aeb0d8f9ab40312a10d2262f3f50acbad803e32caef61b6cf86fc
+  checksum: 10c0/ccad0545c95a76aebe3b1120bc87b2fbc724c81ead08986dce56f28b6579db50a17b557dc813ed2e0f69915e6c2bbf667d294fec8215fc41902d0edd10ad6fbf
   languageName: node
   linkType: hard
 
@@ -2611,7 +2626,7 @@ __metadata:
     react-intersection-observer: "npm:11.0.1"
     react-plotly.js: "npm:4.1.0"
     react-router-dom: "npm:7.18.5"
-    rimraf: "npm:6.1.3"
+    rimraf: "npm:6.1.4"
     source-map-explorer: "npm:2.5.3"
     typescript: "npm:7.0.2"
   languageName: unknown
