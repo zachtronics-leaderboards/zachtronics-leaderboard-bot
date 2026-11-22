@@ -1467,10 +1467,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-selector@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "file-selector@npm:5.0.1"
-  checksum: 10c0/ea4c36f4c50f509973244050882c6b0e7b68d215c1deaaf13d55739b1d1cbe7f738bd6e6bfd9b7c439f4e928ebb52b471049ed244042045dd4bf89b8d978db59
+"file-selector@npm:^5.0.2":
+  version: 5.0.3
+  resolution: "file-selector@npm:5.0.3"
+  checksum: 10c0/fd225c1038f56d25562fae203fe3262828ea72d7e81553a58f486d976c6f1a34bb8c74b8a89ea2c3a720cc25d9d2bcd77fd017a299ee6e1b3b3814c97ebe3704
   languageName: node
   linkType: hard
 
@@ -2044,19 +2044,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dropzone@npm:20.2.0":
-  version: 20.2.0
-  resolution: "react-dropzone@npm:20.2.0"
+"react-dropzone@npm:20.2.1":
+  version: 20.2.1
+  resolution: "react-dropzone@npm:20.2.1"
   dependencies:
     attr-accept: "npm:^4.0.1"
-    file-selector: "npm:^5.0.1"
+    file-selector: "npm:^5.0.2"
   peerDependencies:
     "@types/react": "*"
     react: ">= 18"
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/fcd1e241c99b47ae078f90b6ef9861adf5bb25acc7e590598ec8b0ab33c7ea8d6025e0f93c33dd235f1d43dfdf714c22a3aabe346de70770f47c6815079fff49
+  checksum: 10c0/698bc4711c205c60693597d63176bbff0a7621361855e6f15c96a56e8aedfb0b8276fe18e4ae949d2e58b4a8fd69bb8e88e97bb857b2307a60380368ebbd9a02
   languageName: node
   linkType: hard
 
@@ -2620,7 +2620,7 @@ __metadata:
     react: "npm:19.3.1"
     react-cool-dimensions: "npm:3.0.1"
     react-dom: "npm:19.3.1"
-    react-dropzone: "npm:20.2.0"
+    react-dropzone: "npm:20.2.1"
     react-intersection-observer: "npm:11.0.1"
     react-plotly.js: "npm:4.1.0"
     react-router-dom: "npm:7.18.6"
